@@ -1,0 +1,118 @@
+/* ======================
+  GENERAL
+  =====================*/
+
+* {
+  box-sizing: border-box;
+  font-family: Concert One, sans-serif;
+  font-size: 20px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-width: 540px;
+  background: whitesmoke;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ======================
+  CALCULATOR
+  =====================*/
+
+.calculator--container {
+  width: 440px;
+  padding: 0.5em;
+  background: black;
+  border-radius: 10px;
+}
+
+/* ======================
+  DISPLAY
+  =====================*/
+
+
+#display {
+  border: 1px solid white;
+  margin-bottom: 0.5em;
+  padding: 0.2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  color: white;
+  border-radius: 10px;
+}
+
+#currentInput {
+  flex-basis: 100%;
+  text-align: end;
+  color: orangered;
+  font-size: 1.25rem
+}
+
+#fullInput {
+  flex-basis: 100%;
+  text-align: end;
+  font-size: 1.5rem
+}
+
+/* ======================
+  KEYBOARD
+  =====================*/
+
+  /* Layout */
+
+.keyboard--container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat (5, 1fr);
+}
+
+.key {
+  padding: 1em;
+  background: lightgrey;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+.key:hover {
+  border: 1px solid whitesmoke
+}
+
+.key--long {
+  grid-column: 1/3
+}
+
+.key--high {
+  grid-column: 4/5;
+  grid-row: 4/6;
+}
+
+/* Color */
+
+.key--clear {
+  background-color: #E15554;
+}
+
+.key--equals {
+  background-color: #3BB273;
+}
+
+.key--operator {
+  background-color: #E1BC29;
+}
+
+.key--decimal {
+  background-color: #4D9DE0;
+}
+
+.key--zero {
+  background-color: #7768AE;
+}
