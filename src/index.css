@@ -39,7 +39,7 @@ body {
   =====================*/
 
 
-#display {
+#display--main {
   border: 1px solid white;
   margin-bottom: 0.5em;
   padding: 0.2em;
@@ -50,14 +50,19 @@ body {
   border-radius: 10px;
 }
 
-#currentInput {
+#display--full {
+  min-height: 1em;
   flex-basis: 100%;
   text-align: end;
   color: orangered;
-  font-size: 1.25rem
+  font-size: 1.25rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: rtl;
 }
 
-#fullInput {
+#display {
+  min-height: 1em;
   flex-basis: 100%;
   text-align: end;
   font-size: 1.5rem
