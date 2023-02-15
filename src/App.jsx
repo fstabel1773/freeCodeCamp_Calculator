@@ -46,7 +46,7 @@ function App() {
     }
     if (currentInput.slice(-1) != ".") {
       setCurrentInput(value)
-      fullInput != "" ? setFullInput(prevFullInput => value + prevFullInput) : {} 
+      fullInput != "" ? setFullInput(prevFullInput => prevFullInput + value) : {} 
     }
   }
 
