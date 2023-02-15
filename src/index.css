@@ -58,7 +58,6 @@ body {
   text-align: right;
   overflow: hidden;
   text-overflow: ellipsis;
-  direction: rtl;
 }
 
 #display {
@@ -68,7 +67,6 @@ body {
   text-align: right;
   overflow: hidden;
   text-overflow: ellipsis;
-  direction: rtl;
 }
 
 /* ======================
