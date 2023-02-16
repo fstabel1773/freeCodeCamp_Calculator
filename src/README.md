@@ -2,6 +2,9 @@
 
 This repo contains the fourth of five required solo projects from freeCodeCamp Front End Development Libraries course.
 It is a calculator built on my own from scratch according to user stories (see below). The app uses react-framework and vite as bundler. The calculator uses formula logic instead of immediate execution logic.
+
+Calculator-App live demo available: https://funny-figolla-f7d292.netlify.app.
+
 Note: There is a testscript from freeCodeCamp included confimring fullfilling of user stories.
 
 ### User Stories
